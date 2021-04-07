@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>My Contacts</title>
+</head>
+<body>
+	 <h2> Contact Details </h2>
+     <p><strong>Phone:</strong>9689019575/9356551226
+     	<br>
+     	<strong>Email:</strong> akruyhau@gmail.com
+     </p>
+     <hr>
+     <!--Forms are used to make forms
+         action means what action will be taken after pressing action button
+         method->post means the texts will just be copied and pasted(mail inbox->in this case)
+         enctype means encryption type-> like utf-8
+         text area is not a type of input**unlike java
+         label just saves and displays the text
+         textbox accept text
+     -->
+
+     <form action="mailto: akruyhau@gmail.com" method="post" enctype="text/plain">
+     	<label>Full Name:</label>
+     	<input type="text" name="yourName"><br>
+     	<label>Email ID:&nbsp&nbsp</label>
+     	<input type="email" name="yourEmail"><br>
+     	<label>Message: </label><br>
+     	<textarea name="yourMessage" row="20" column="30"></textarea><br>
+     	<input type="submit" name="">
+
+     </form>
+
+</body>
+</html>
